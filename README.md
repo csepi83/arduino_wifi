@@ -10,6 +10,7 @@ Success with AT+UART_DEF=9600,8,1,0,0 (and AT+UART=9600,8,1,0,0).
 
 
 
+http://www.esp8266.com/wiki/doku.php?id=getting-started-with-the-esp8266
 
 AT Commands
 
