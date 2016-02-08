@@ -31,3 +31,10 @@ And connect to one of the listed APs:
 Join an Access Point:
 AT+CWJAP=“SSID”,“password”
 Alternate Firmware loading
+
+
+
+http://www.martyncurrey.com/arduino-to-esp8266-serial-commincation/
+
+http://blog.huntgang.com/2015/01/20/arduino-esp8266-tutorial-web-server-monitor-example/
+
