@@ -10,3 +10,23 @@ Success with AT+UART_DEF=9600,8,1,0,0 (and AT+UART=9600,8,1,0,0).
 
 
 
+
+AT Commands
+
+The first AT command you will want to try is:
+AT+GMR
+it will output the firmware revision number similar to:
+0018000902-AI03.
+000902 means firmware version 0.9.2, 0018 is the version level of the AT command support.
+
+Then, you may want to list the Access Points that are visible from your ESP module:
+
+Set Wifi mode to both Access Point and STAtion:
+AT+CWMODE=3
+List Access Points:
+AT+CWLAP
+And connect to one of the listed APs:
+
+Join an Access Point:
+AT+CWJAP=“SSID”,“password”
+Alternate Firmware loading
