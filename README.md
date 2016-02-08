@@ -4,3 +4,9 @@ https://jsfiddle.net/nm00b377/
 nem árt átírni a SoftwareSerial.h-ban az _SS_MAX_RX_BUFF - ot 64-ről 256-ra
 ~                                                                                 
 
+
+
+Success with AT+UART_DEF=9600,8,1,0,0 (and AT+UART=9600,8,1,0,0).
+
+
+
