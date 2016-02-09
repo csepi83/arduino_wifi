@@ -38,3 +38,13 @@ http://www.martyncurrey.com/arduino-to-esp8266-serial-commincation/
 
 http://blog.huntgang.com/2015/01/20/arduino-esp8266-tutorial-web-server-monitor-example/
 
+
+
+
+
+http://www.instructables.com/id/Internet-time-syncronized-clock-for-Arduino/?ALLSTEPS
+
+CH_PD (enable/power down, must be pulled to 3.3v directly or via resistor)
+
+
+
