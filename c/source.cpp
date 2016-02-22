@@ -1,7 +1,6 @@
 /* Hello World program */
 
 #include<stdio.h>
-#include<vector>
 
 class Average
 {
@@ -21,11 +20,9 @@ Average::Average(int maxNum)
   _maxNum = maxNum;
 //  float nums[] = {0,0,0,0,0};
 
-  std::fill_n(nums,5,0);
-
-  //for (int i = 0; i < _maxNum; i++) {
-  //  nums[i] = -10;
-  //}
+  for (int i = 0; i < _maxNum; i++) {
+    nums[i] = 0;
+  }
 
 //	for (int j = 0; j < _maxNum; j++) {
 //		printf("%f\n",nums[j]);
@@ -75,8 +72,6 @@ printf("%f",f);
 a.add(10);
 a.add(11);
 a.add(12);
-a.add(13);
-a.add(14);
 
 printf("avg: %f",a.get());
 
