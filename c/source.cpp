@@ -32,6 +32,11 @@ Average::Average(int maxNum)
 
 void Average::add(float num)
 {
+
+  if (index==_maxNum) {
+    index = 0;
+  }
+
   nums[index] = num;
 printf("%d:%f \n",index,num);
 index++;
@@ -70,8 +75,15 @@ printf("%f",f);
 
     Average a(5);
 a.add(10);
-a.add(11);
-a.add(12);
+a.add(10);
+a.add(10);
+a.add(10);
+a.add(10);
+a.add(20);
+a.add(20);
+a.add(20);
+a.add(20);
+a.add(20);
 
 printf("avg: %f",a.get());
 
